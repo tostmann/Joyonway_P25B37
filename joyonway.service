@@ -1,0 +1,14 @@
+[Unit]
+Description=Joyonway RS485 MQTT Gateway
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/ai_builder_data/users/763684262/projects/Joyonway
+ExecStart=/usr/bin/python3 joyonway_mqtt.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

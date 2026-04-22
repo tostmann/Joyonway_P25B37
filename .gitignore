@@ -1,0 +1,21 @@
+# Logs and data
+*.log
+*.txt
+tools/
+logs/
+__pycache__/
+*.pyc
+
+# Internal AI Files
+FACTS.md
+MEMORY.md
+GLOBAL_KNOWLEDGE.md
+costs.json
+history.json
+.env
+
+# MacOS/Windows trash
+.DS_Store
+Thumbs.db
+costs.json
+history.json
